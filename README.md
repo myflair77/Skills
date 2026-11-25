@@ -1,4 +1,27 @@
-# PDFtoMD
+# Codex 스킬 모음
+
+| 스킬 | 용도 |
+|---|---|
+| [pdftomd](skills/pdftomd) | PDF를 주제별 Markdown 노트로 변환·검수 |
+| [task-analysis](skills/task-analysis) | 업무 자료 분석, 우선순위와 업무일지 작성 |
+| [task-execution](skills/task-execution) | 확정한 업무 실행 및 같은 업무일지 갱신 |
+
+## 다른 PC에서 세 스킬 설치
+
+새 PC의 Codex에 아래 문장을 입력하세요.
+
+```text
+$skill-installer https://github.com/myflair77/pdftomd-skill 저장소에서 skills/pdftomd, skills/task-analysis, skills/task-execution 세 경로의 스킬을 모두 설치해 줘.
+```
+
+설치 후 Codex를 다시 시작하세요. 작업분석과 작업처리를 처음 사용할 때 이 PC의 업무일지 폴더, 템플릿 파일, 부서 약칭을 함께 알려주면 두 스킬이 같은 노트를 사용합니다. 별도 설정 없이도 작업 폴더를 지정해 시작할 수 있습니다.
+
+```text
+$task-analysis 이 업무 폴더의 요청과 마감을 정리해 줘: <폴더 경로>
+$task-execution 방금 정리한 목록으로 답변서를 작성하고 같은 업무일지를 갱신해 줘.
+```
+
+## PDFtoMD
 
 PDF를 요약하지 않고 원문 구조와 의미를 보존한 주제별 Markdown·Obsidian 노트로 변환하고 검수하는 Codex 스킬입니다.
 
@@ -22,7 +45,7 @@ $pdftomd 이 PDF를 조사하고 분할 방식과 시범 변환을 준비해 줘
 
 ## 배포 범위와 개인 데이터
 
-배포 파일은 `skills/pdftomd/SKILL.md`, `agents/openai.yaml`, `references/`의 지침 파일뿐입니다. PDF, 변환 노트, 이미지, 개인 추천 이력은 포함하지 않습니다.
+PDFtoMD의 배포 파일은 `skills/pdftomd/SKILL.md`, `agents/openai.yaml`, `references/`의 지침 파일뿐입니다. PDF, 변환 노트, 이미지, 개인 추천 이력은 포함하지 않습니다.
 
 추천 기능의 기록 형식과 처리 규칙은 포함하지만 실제 이력은 없습니다. 사용 중 생성되는 `data/recommendation-history.jsonl`은 설치된 스킬 폴더의 개인 데이터이며 Git에서 제외합니다.
 

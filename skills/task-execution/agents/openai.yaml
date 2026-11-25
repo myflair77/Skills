@@ -1,0 +1,4 @@
+interface:
+  display_name: "작업처리"
+  short_description: "분석과 대화로 확정된 업무 실행, 기존 서식 보존 및 참고 파일 보호"
+  default_prompt: "$task-execution 작업분석 결과와 기존 대화, 추가 지시를 근거로 확정된 업무를 수행해줘. 모호한 사항은 선택지와 직접 입력으로 확인하고, 기존 서식과 글꼴을 보존하며 참고 파일은 읽기만 해줘."

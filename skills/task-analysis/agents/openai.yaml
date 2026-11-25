@@ -1,0 +1,4 @@
+interface:
+  display_name: "작업분석"
+  short_description: "폴더나 주제를 분석하고 채팅 이름 및 템플릿 업무 노트에 결과 반영"
+  default_prompt: "$task-analysis 지정한 폴더나 주제의 관련 자료를 분석하고 근거와 우선순위가 있는 할 일을 정리해줘."

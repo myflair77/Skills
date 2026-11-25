@@ -16,3 +16,17 @@
 **/data/
 **/*.pdf
 **/*.jsonl
+
+!/skills/task-analysis/
+/skills/task-analysis/*
+!/skills/task-analysis/SKILL.md
+!/skills/task-analysis/agents/
+/skills/task-analysis/agents/*
+!/skills/task-analysis/agents/openai.yaml
+
+!/skills/task-execution/
+/skills/task-execution/*
+!/skills/task-execution/SKILL.md
+!/skills/task-execution/agents/
+/skills/task-execution/agents/*
+!/skills/task-execution/agents/openai.yaml
